@@ -1,7 +1,6 @@
 package week2;
 import java.util.Scanner;
 public class Ex1 { /*subtraction*/
-
 	public static void main(String[] args) {
 		Scanner differenceOfNumbers = new Scanner(System.in);
 	        System.out.print("Enter first number: ");
