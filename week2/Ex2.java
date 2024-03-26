@@ -1,6 +1,5 @@
 package week2;
 public class Ex2 {
-
 	public static void main(String[] args) {
 		double celsius = 15;
 	        double fahrenheit = celsius*9/5 + 32;
