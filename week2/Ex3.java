@@ -1,14 +1,11 @@
 package week2;
-
 public class Ex3 {
-
 	public static void main(String[] args) {
         double radius = 30;
         double area = Math.PI * Math.pow(radius, 2);
 
         System.out.println("If radius is " + radius + ", then the area of circle is " + area);
 	}
-
 }
 
 /* Exercise 1.3	Write a Java program to calculate the area of a circle. Recall that the area of circle is given by
