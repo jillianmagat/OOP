@@ -5,8 +5,7 @@ public class Ex7 {
 		String txt = "I love java programming";
 
 		System.out.println("Index 7 to 10 of \"" + txt + "\" is " + txt.substring(7,11));
-		System.out.print("Its length is " + (txt.substring(7,11)).length());
-		
+		System.out.print("Its length is " + (txt.substring(7,11)).length());		
 	}
 }
 
