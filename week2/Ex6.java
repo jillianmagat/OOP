@@ -1,7 +1,5 @@
 package week2;
-
 public class Ex6 {
-
 	public static void main(String[] args) {
 		double fullTank = 40;
 		double liters = 8;
@@ -9,12 +7,9 @@ public class Ex6 {
 		double normalRoad = fullTank/liters*kms;
 		double roughRoad = fullTank/(liters*1.15)*kms;
 		
-		System.out.println("The distance the car can travel on 40 liters of fuel on normal road is " + 
-							normalRoad + " kilometers.");
-		System.out.println("The distance the car can travel on 40 liters of fuel on rough road is " + 
-							roughRoad + " kilometers.");
+		System.out.println("The distance the car can travel on 40 liters of fuel on normal road is " + normalRoad + " kilometers.");
+		System.out.println("The distance the car can travel on 40 liters of fuel on rough road is " + roughRoad + " kilometers.");
 	}
-
 }
 
 /* Exercise 1.6	Fuel consumption. A motor car use 8 liters of fuel per 100 kilometers of normal road and 15% 
